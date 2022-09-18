@@ -9,4 +9,4 @@ if rank == 0:
 elif rank == 1:
     data = comm.recv(source=0, tag=11)
 
-print(f"rank {rank}")
+print(f"process rank {rank} done ")
